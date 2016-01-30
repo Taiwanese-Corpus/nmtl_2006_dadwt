@@ -1,8 +1,9 @@
 # 台語文數位典藏資料庫
 
 ## 介紹
-國史館網站：<http://xdcm.nmtl.gov.tw/dadwt/pbk.asp>
-楊允言老師網站：<http://ip194097.ntcu.edu.tw/nmtl/dadwt/pbk.asp>
+兩個網站大部份的內容相同，不過可能文章會有小小的不一樣，可以比較著看
+* 國史館網站：<http://xdcm.nmtl.gov.tw/dadwt/pbk.asp>
+* 楊允言老師網站：<http://ip194097.ntcu.edu.tw/nmtl/dadwt/pbk.asp>
 
 ## 資料說明
 本資料庫包含臺語漢羅及全羅對應的語料，以下依處理方式說明
