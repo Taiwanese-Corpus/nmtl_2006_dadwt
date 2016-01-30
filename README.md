@@ -42,3 +42,12 @@ kp 表示劇本， ks表示歌詩， sb表示散文，ss表示小說。
 此資料夾是把`改過逝資料`的文本全部整理出來，含標題、作者
 * 臺語文數位典藏漢羅文.txt
 * 臺語文數位典藏全羅文.txt
+
+### 分詞格式
+這資料夾的語料是在[翻譯研究](https://github.com/sih4sing5hong5/huan1-ik8_gian2-kiu3)使用[臺灣言語工具](https://github.com/sih4sing5hong5/tai5-uan5_gian5-gi2_kang1-ku7)，經過程式處理過的，
+* 臺語文數位典藏一對一.txt
+  * 用臺灣言語工具裡`拆文分析器`將能對齊的漢羅和全羅合併，若無法對齊，則使用全羅。
+  * 詳細流程請參考[程式](https://github.com/sih4sing5hong5/huan1-ik8_gian2-kiu3/blob/master/%E8%B3%87%E6%96%99%E8%99%95%E7%90%86/%E6%95%B8%E4%BD%8D%E5%85%B8%E8%97%8F%E4%B8%80%E5%B0%8D%E4%B8%80.py)
+* 01.典藏校對有例句.txt
+  * 用「教育部閩南話常用詞辭典」和「臺華新聞語料庫」的漢字音標對應，根據語言模型將`臺語文數位典藏一對一.txt`補最適當的漢字
+  * 詳細流程請參考[程式](https://github.com/sih4sing5hong5/huan1-ik8_gian2-kiu3/blob/master/%E6%A0%A1%E5%B0%8D/%E4%BA%92%E7%9B%B8%E8%A8%93%E7%B7%B4%E6%9C%89%E4%BE%8B%E5%8F%A5.py)
