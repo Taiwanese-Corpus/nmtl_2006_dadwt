@@ -1,6 +1,6 @@
 # 台語文數位典藏資料庫
 
-國史館網站：<xdcm.nmtl.gov.tw/dadwt/pbk.asp>
+國史館網站：<http://xdcm.nmtl.gov.tw/dadwt/pbk.asp>
 楊允言老師網站：<http://ip194097.ntcu.edu.tw/nmtl/dadwt/pbk.asp>
 
 ## 資料說明
@@ -38,3 +38,7 @@ kp 表示劇本， ks表示歌詩， sb表示散文，ss表示小說。
 * 改過逝資料
   * 人工從`原始逝資料`改成一句對齊一句
 
+### 電腦用文本格式
+此資料夾是把`改過逝資料`的文本全部整理出來，含標題、作者
+* 臺語文數位典藏漢羅文.txt
+* 臺語文數位典藏全羅文.txt
