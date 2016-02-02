@@ -19,7 +19,7 @@
 
 #### 勘誤
 原本的資料有一些缺失，以下整理看到的部份。不過這勘誤是很久以前做的，可能不是很完整
-* `資料名`
+* `資料路徑`
   * 勘誤說明
 * `kp/K/1957/KP.1957.Ng5 Hoai5-un.Seng3-kek8 te7 1 chip8_04.tbk.txt`
   * 後壁減一字「完」
@@ -38,13 +38,13 @@
 本資料夾的資料是`原始文字檔`經過上面的勘誤處理後，把漢羅和全羅的段落先對齊，再一句一句對齊。對齊後仍有誠萬句漢羅和全羅無法對齊。
 
 裡面的檔案是`sql`檔，裡面有四個`sql table`：
-* 原始段落資料
-  * 原始文字檔匯入的結果
-* 改過段落資料
+* `原始段落資料`
+  * `原始文字檔`匯入的結果
+* `改過段落資料`
   * 人工從`原始段落資料`改成一段對齊一段
-* 原始逝資料
+* `原始逝資料`
   * 用程式把`改過段落資料`轉成一句一句
-* 改過逝資料
+* `改過逝資料`
   * 人工從`原始逝資料`改成一句對齊一句
 
 當初是使用`postgres`，不過`mysql`應該也能匯入
@@ -74,7 +74,7 @@ e7-mng5 e5 bok8-su1 , tong1 hian2-li2 ku7-ni5 u7 tshut4 tsit8-e5 lun7 tshiann2 t
 
 ### 分詞格式
 這資料夾的語料是在[翻譯研究](https://github.com/sih4sing5hong5/huan1-ik8_gian2-kiu3)使用[臺灣言語工具](https://github.com/sih4sing5hong5/tai5-uan5_gian5-gi2_kang1-ku7)，經過程式處理過的。若要使用，可以參考臺灣言語工具的[解析文件](http://sih4sing5hong5.github.io/tai5-uan5_gian5-gi2_kang1-ku7/%E5%9F%BA%E6%9C%AC%E5%85%83%E7%B4%A0.html#)：
-* 臺語文數位典藏一對一.txt
+* `臺語文數位典藏一對一.txt`
   * 用臺灣言語工具裡`拆文分析器`將能對齊的漢羅和全羅合併，若無法對齊，則使用全羅。
   * 詳細流程請參考[程式](https://github.com/sih4sing5hong5/huan1-ik8_gian2-kiu3/blob/master/%E8%B3%87%E6%96%99%E8%99%95%E7%90%86/%E6%95%B8%E4%BD%8D%E5%85%B8%E8%97%8F%E4%B8%80%E5%B0%8D%E4%B8%80.py)
 ```
@@ -89,7 +89,7 @@ e7-門｜-mng5 e5 牧-師｜bok8-su1 ，｜,
 第｜te7 三｜sann1 名｜mia5 賞｜siunn2 銀｜gin5 兩-e5｜nng7- ，｜,
 第｜te7 四｜si3 名｜mia5 賞｜siunn2 銀｜gin5 一-e5｜tsit8- 。｜.
 ```
-* 01.典藏校對有例句.txt
+* `01.典藏校對有例句.txt`
   * 用「教育部閩南話常用詞辭典」和「臺華新聞語料庫」的漢字音標對應，根據語言模型將`臺語文數位典藏一對一.txt`補最適當的漢字
   * 詳細流程請參考[程式](https://github.com/sih4sing5hong5/huan1-ik8_gian2-kiu3/blob/master/%E6%A0%A1%E5%B0%8D/%E4%BA%92%E7%9B%B8%E8%A8%93%E7%B7%B4%E6%9C%89%E4%BE%8B%E5%8F%A5.py)
 ```
