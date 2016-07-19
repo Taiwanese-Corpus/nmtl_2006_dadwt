@@ -104,3 +104,16 @@ e7-門｜-mng5 e5 牧-師｜bok8-su1 ，｜,
 第｜te7 三｜sann1 名｜mia5 賞｜siunn2 銀｜gin5 兩-个｜nng7-e5 ，｜,
 第｜te7 四｜si3 名｜mia5 賞｜siunn2 銀｜gin5 一-个｜tsit8-e5 。｜.
 ```
+
+## 產生臺灣言語資料yaml格式
+自`01.典藏校對有例句.txt`轉做yaml格式
+```
+virtualenv --python python3 venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install tai5-uan5_gian5-gi2_kang1-ku7 pyyaml
+python 程式/轉做臺灣言語資料庫yaml格式.py
+npm i && npm run deploy
+```
+就會使掠[yaml](https://taiwanese-corpus.github.io/nmtl_dadwt/台語文數位典藏資料庫.yaml)矣
+  
