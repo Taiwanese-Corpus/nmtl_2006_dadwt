@@ -51,5 +51,8 @@
 
 ### JSON格式資料
 ```
-sql2csv.sh
+$ echo drop schema "台語文數位典藏" cascade\; | psql
+$ bzcat 段落對齊/段落對齊.sql.bz2 | psql 
+$ psql
+=# Copy "台語文數位典藏"."改過逝資料" To '/tmp/nmtl.csv' With CSV DELIMITER ',' HEADER;
 ```
