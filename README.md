@@ -50,9 +50,16 @@
 當初是使用`postgres`，不過`mysql`應該也能匯入
 
 ### JSON格式資料
+sql資料轉做電腦較好處理的json
+
+#### 先得著csv
 ```
 $ echo drop schema "台語文數位典藏" cascade\; | psql
 $ bzcat 段落對齊/段落對齊.sql.bz2 | psql 
 $ psql
 =# Copy "台語文數位典藏"."改過逝資料" To '/tmp/nmtl.csv' With CSV DELIMITER ',' HEADER;
+```
+### 轉做json
+```
+$ python3 csv2json.py  # nmtl.json
 ```
